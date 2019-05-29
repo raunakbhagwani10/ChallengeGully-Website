@@ -1,0 +1,291 @@
+html,body
+		{
+			margin: 0;
+			
+		}
+		*{
+			/*font-family: 'Merriweather', serif;*/
+			font-family: 'Roboto Slab', serif;
+			margin: 0;
+		}
+		
+		.navbar-light
+		{
+			/*background-image: linear-gradient(to right ,#2980B9, #6DD5FA,#ffffff) !important;*/
+			background-color: white;
+			color: #ef5350 !important;
+			box-shadow: 1px 1px 5px black;
+			
+		}
+		.navbar-light li
+		{
+			color: #ef5350 !important;
+			font-weight: bold;
+			font-size: 20px;
+		}
+		
+		.navbar-brand
+		{
+			color: #ef5350 !important;	
+			font-size: 20px;
+			font-weight: bold;
+		}
+		.navbar-light li a
+		{
+			color: #ef5350 !important;
+			transition: color 0.7s;
+		}
+		.navbar-light li a:hover
+		{
+			color: black !important;
+		}
+		#banner_section
+		{
+			background-image: url(../images/food_bg.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center center;
+		}
+		#banner_section  h1
+		{
+			color: white !important;
+			text-align: center;
+			margin-top:300px;
+			/*vertical-align: middle;*/
+		}
+		#banner_section button
+		{
+			margin-top: 15px;
+			background-color: black;
+			border:1px solid black;
+			font-size: 25px;
+			transition: background-color 0.5s,border 0.5s;
+			padding: 20px;
+			box-shadow: 0.5px 1px 5px black;
+		}
+		#banner_section button:hover
+		{
+			background-color:#c0996b;
+			border:1px solid #c0996b;
+		}
+		.banner_text
+		{
+			height: 500px;
+			width: 100%;
+		}
+		#first_logo_text
+		{
+			letter-spacing: 2px;
+		}
+		#story
+		{
+			padding-top:100px; 
+			padding-bottom: 100px;
+		}
+		#story span
+		{
+			color: #c0996b;
+			font-family: 'Dancing Script', cursive;
+			font-size: 70px;
+			font-style: italic;
+		}
+		#story h1
+		{
+			font-family: 'Poppins', sans-serif;
+		}
+		#story p
+		{
+			text-align: justify;
+			padding-top: 25px;
+		}
+		#dishes h1
+		{
+			font-family: 'Poppins', sans-serif;
+			padding-bottom: 20px;
+			color: white;
+			padding-top: 20px;
+		}
+		#dishes button
+		{
+			background-color: white;
+			border: 1px solid white;
+			padding:20px;
+			transition: background-color 0.7s,border 0.7s,color 0.7s;
+			color: black;
+			box-shadow: 0.5px 1px 5px black;
+			
+		}
+		#dishes button:hover
+		{
+			background-color:#c0996b;
+			border:1px solid black;
+			color: white;
+			
+		}
+		#dishes jumbotron
+		{
+			background-color: #c0996b !important;
+			border-radius: 0px;
+			border: 0;
+			width: 100%;
+			
+		}
+		#dishes
+		{
+			padding-top: 20px;
+			padding-bottom: 20px;
+			border-radius: 0px;
+			border:0;
+		}
+		#chefs_team
+		{
+			padding-bottom: 50px;
+		}
+		#chefs_team h1
+		{
+			font-family: 'Poppins', sans-serif;
+		}
+		#chefs_team span
+		{
+			color: #c0996b;
+			font-family: 'Dancing Script', cursive;
+			font-size: 70px;
+			font-style: italic;
+		}
+		#chefs h3
+		{
+			font-family: 'Poppins', sans-serif;
+			font-size: 24px;
+		}
+		#chefs p
+		{
+			font-family: 'Poppins', sans-serif;
+			color: #ef5350;
+			font-size: 18px;
+		}
+		#chefs span
+		{
+			text-align: justify;
+		}
+		li.active > a
+		{
+			color: black !important;
+		}
+		.footer_section
+		{
+			background-color: #263238;
+			border: 0;
+			border-radius: 0px;
+		}
+		
+		footer h4
+		{
+			color: white;
+			padding-top: 50px;
+			
+		}
+		footer
+		{
+			margin-bottom: 0px;
+		}
+		footer ul li
+		{
+			list-style: none;
+			text-decoration: none;
+			
+		}
+		footer ul li a
+		{
+			text-decoration: none;
+			color: white;
+			padding-top: 10px;
+		}
+		footer ul li a:hover
+		{
+			color: white;
+			text-decoration: none;
+		}
+		footer p
+		{
+			color: white;
+		}
+		footer p a
+		{
+			color: white;
+		}
+		footer p a:hover
+		{
+			text-decoration: none;
+			color: white;
+		}
+		#dish_heading
+		{
+			padding-bottom: 50px;
+		}
+		#dish_heading h1
+		{
+			font-family: 'Poppins', sans-serif;
+		}
+		#dish_heading span
+		{
+			color: #c0996b;
+			font-family: 'Dancing Script', cursive;
+			font-size: 70px;
+			font-style: italic;
+		}
+		#dishes_list .btn
+		{
+			background-color: black;
+			border:1px solid black;
+			transition: background-color 0.7s,border 0.7s,color 0.7s;
+		}
+		#dishes_list .btn:hover
+		{
+			background-color: #c0996b;
+			border:1px solid #c0996b;
+			color: white;
+		}
+		#dishes_list .card:hover
+		{
+			box-shadow: -1px 9px 40px -12px black;
+			cursor: pointer;
+		}
+		.modal-footer
+		{
+			background-color: #263238;
+		}
+		.modal-header
+		{
+			background-color: #F44336;
+			color: white;
+			font-family: 'Poppins', sans-serif;
+			font-size: 100px;
+		}
+		.modal-body
+		{
+			list-style: none;
+			text-align: justify;
+			font-family: 'Roboto Slab', serif;
+		}
+		#contact_us form
+		{
+			font-family: 'Poppins', sans-serif;
+			font-size: 32px;
+		}
+		#contact_us button
+		{
+			background-color: #c0996b;
+			border-radius: 100px;
+			padding-left: 30px;
+			padding-right: 30px;
+			border:1px solid  #c0996b;
+			text-transform: capitalize;
+			box-shadow:-1px 9px 20px -12px black; 
+			transition: background-color 0.7s,border 0.7s;
+			
+		}
+		#contact_us button:hover
+		{
+			background-color: black;
+			border: 1px solid black;
+		}
